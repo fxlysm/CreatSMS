@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main_ui"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.fxly.creatsms.MainUiActivity"
+    tools:showIn="@layout/app_bar_main_ui">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:orientation="vertical"
+            >
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/sms_message_contect"-->
+                <!--android:textSize="@dimen/activity_vertical_margin"-->
+                <!--android:textStyle="bold"-->
+                <!--/>-->
+
+            <!--<EditText-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:hint="@string/smes_message_contect_tip"-->
+                <!--android:lines="6"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLargeInverse"-->
+
+                <!--android:typeface="monospace"-->
+                <!--android:capitalize = "characters"-->
+                <!--/>-->
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/sms_message_number"-->
+                <!--android:textSize="@dimen/activity_vertical_margin"-->
+                <!--android:textStyle="bold"-->
+                <!--/>-->
+
+            <!--<EditText-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/sms_phone_number_default"-->
+                <!--android:hint="@string/sms_phone_number_tip"-->
+                <!--android:lines="1"-->
+                <!--android:singleLine="true"-->
+                <!--/>-->
+
+            <!--android:textCursorDrawable="@drawable/text_cursor_cyan"-->
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/sms_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/sms_message_number"
+                android:text="@string/sms_phone_number_default"
+                android:textCursorDrawable="@drawable/text_cursor_cyan"
+                android:textSize="34sp"
+                android:digits="1234567890.+"
+                app:met_baseColor="@android:color/black"
+                app:met_floatingLabel="highlight"
+                app:met_maxCharacters="15"
+                app:met_primaryColor="?colorAccent"
+                app:met_singleLineEllipsis="true"
+                android:inputType="number" />
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/sms_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/sms_message_contect"
+                android:text="@string/smes_message_contect_tip"
+                android:textSize="24sp"
+                android:lines="5"
+                android:singleLine="false"
+                android:minLines="1"
+                android:maxLines="10"
+                app:met_baseColor="@android:color/black"
+                app:met_floatingLabel="highlight"
+                app:met_maxCharacters="520"
+                app:met_primaryColor="?colorAccent"
+                app:met_singleLineEllipsis="false" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

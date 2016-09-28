@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/scrollview_layout"
+        android:paddingLeft="@dimen/scrollview_layout"
+        android:paddingRight="@dimen/scrollview_layout"
+        android:paddingTop="@dimen/scrollview_layout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true">
+    <RelativeLayout
+
+        android:id="@+id/activity_setttings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/waibu_layout"
+        android:paddingLeft="@dimen/waibu_layout"
+        android:paddingRight="@dimen/waibu_layout"
+        android:paddingTop="@dimen/waibu_layout"
+        tools:context="com.fxly.creatsms.SetttingsActivity">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_settings"
+            android:orientation="vertical" >
+                  <!--时间设置-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="vertical" >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/settings_select_time"
+                            android:layout_marginTop="@dimen/appbar_padding_top"
+                            android:textSize="@dimen/fontSize_28"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/settings_select_time_detail"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="6"
+                        >
+                        <ImageView
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:background="@mipmap/ic_previous_right"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+            <view
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ffc0c0c0"
+                ></view>
+            <!--条数设置-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/appbar_padding_top"
+                            android:text="@string/settings_sms_count"
+                            android:gravity="center_vertical"
+                            android:layout_gravity="center_vertical"
+                            android:textSize="@dimen/fontSize_28"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/fontSize_10"
+                            android:text="@string/settings_sms_count_detail"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="6"
+                        >
+                        <ImageView
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:background="@mipmap/ic_previous_right"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+            <view
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ffc0c0c0"
+                ></view>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="vertical" >
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+    </ScrollView>
+

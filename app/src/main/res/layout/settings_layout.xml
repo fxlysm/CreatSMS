@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.fxly.creatsms.SetttingsActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/public_setting"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                />
+            <LinearLayout style="@style/wrap_layout" >
+
+
+
+
+                <!-- 上圆角-->
+                <LinearLayout style="@style/top_layout" android:id="@+id/select_time">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        >
+                        <TextView style="@style/usertext" android:text="@string/settings_select_time" />
+                        <TextView style="@style/usertext_suoming" android:text="@string/settings_select_time_detail"  android:id="@+id/time_select"/>
+                    </LinearLayout>
+
+                    <ImageView style="@style/img_arrow"/>
+
+                </LinearLayout>
+
+                <!-- 分割线 -->
+                <View style="@style/bg_line"/>
+                <!-- 无圆角-->
+                <LinearLayout style="@style/bottom_layout" android:orientation="horizontal" android:id="@+id/setting_count">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        >
+                        <TextView style="@style/usertext" android:text="@string/settings_sms_count" />
+
+                        <TextView style="@style/usertext_suoming" android:text="@string/settings_sms_count_detail" android:id="@+id/count_string"/>
+                    </LinearLayout>
+                    <ImageView style="@style/img_arrow"/>
+                    <!--<CheckBox-->
+                        <!--android:id="@+id/eu_number"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:gravity="right"-->
+                        <!--android:layout_gravity="right"-->
+                        <!--android:layout_weight="6"-->
+                        <!--android:layout_marginRight="5dp"></CheckBox>-->
+                </LinearLayout>
+
+                <!--&lt;!&ndash; 分割线 &ndash;&gt;-->
+                <!--<View style="@style/bg_line"/>-->
+
+                <!-- 下圆角-->
+                <!--<LinearLayout style="@style/bottom_layout" android:orientation="horizontal">-->
+
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:orientation="vertical"-->
+                        <!--android:layout_weight="1"-->
+                        <!--&gt;-->
+                        <!--<TextView style="@style/usertext" android:text="@string/settings_sms_count" />-->
+                        <!--<TextView style="@style/usertext_suoming" android:text="@string/settings_sms_count" />-->
+                    <!--</LinearLayout>-->
+                    <!--&lt;!&ndash;<ImageView style="@style/img_arrow"/>&ndash;&gt;-->
+                    <!--<CheckBox-->
+                        <!--android:id="@+id/is_readed"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:layout_weight="6"-->
+                        <!--android:layout_marginRight="5dp"></CheckBox>-->
+                <!--</LinearLayout>-->
+
+
+                <!--//   -->
+
+
+
+                <!--//-->
+            </LinearLayout>
+
+
+
+
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/public_setting"-->
+                <!--android:layout_marginLeft="@dimen/activity_vertical_margin"-->
+                <!--/>-->
+            <!--<LinearLayout style="@style/wrap_layout" >-->
+
+                <!--&lt;!&ndash; 上圆角&ndash;&gt;-->
+                <!--<LinearLayout style="@style/top_layout">-->
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:orientation="vertical"-->
+                        <!--android:layout_weight="1"-->
+                        <!--&gt;-->
+                        <!--<TextView style="@style/usertext" android:text="@string/settings_select_time" />-->
+                        <!--<TextView style="@style/usertext_suoming" android:text="@string/settings_select_time_detail" />-->
+                    <!--</LinearLayout>-->
+
+                    <!--&lt;!&ndash;<ImageView style="@style/img_arrow"/>&ndash;&gt;-->
+                    <!--<CheckBox-->
+                        <!--android:id="@+id/english_message_body"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:layout_weight="6"-->
+                        <!--android:layout_marginRight="5dp"></CheckBox>-->
+                <!--</LinearLayout>-->
+
+                <!--&lt;!&ndash; 分割线 &ndash;&gt;-->
+                <!--<View style="@style/bg_line"/>-->
+
+            <!--</LinearLayout>-->
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </ScrollView>
+</RelativeLayout>

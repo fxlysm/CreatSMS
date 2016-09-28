@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">CreatSMS</string>
+	<string name="navigation_drawer_open">オープン ナビゲーション引き出し</string>
+	<string name="navigation_drawer_close">引き出しを閉じるナビゲーション</string>
+	<string name="action_settings">設定</string>
+	<string name="sms_message_contect">メッセージ本文</string>
+	<string name="smes_message_contect_tip">入力して、この領域が null する必要がないです。</string>
+	<string name="sms_message_number">電話番号</string>
+	<string name="sms_phone_number_default">13800138000</string>
+	<string name="sms_phone_number_tip">任意の数を入力して下さい</string>
+	<string name="apply_permission_message">読み取りとメッセージの書き込みのアクセス許可を適用する必要はこのアプリ</string>
+	<string name="adding_sms">Sms を追加.</string>
+	<string name="title_activity_settings">設定</string>
+	<string name="language_switch">言語を切り替える</string>
+	<string name="navigation_about">について</string>
+	<string name="navigation_share">共有</string>
+	<string name="navigation_update">更新</string>
+	<string name="section_format">こんにちはセクションから世界: %1$ d</string>
+	<string name="settings_select_time">時間を選択します。</string>
+	<string name="settings_select_time_detail">そのメッセージの作成時の時間を選択します。</string>
+	<string name="settings_select_count">あなたを創り出すメッセージ数の設定は %s です。</string>
+	<string name="settings_sms_count">メッセージ数</string>
+	<string name="settings_sms_count_detail">カウントが作成するもの</string>
+	<string name="public_setting">公開設定</string>
+	<string name="nav_setting_feedback">フィードバック</string>
+	<string name="message_count_pop">メッセージの数を入力して下さい</string>
+	<string name="version_name">V</string>
+	<string name="can_not_find_version_name"></string>
+	<string name="sent_to">経由する</string>
+	<string name="qq_app_check">デバイスの QQ をインストールしない場合、Pls は AppStore からダウンロードしてからやり直してください。</string>
+	<string name="network_setting">ネットワークの設定</string>
+	<string name="network_notwork">ネットワークは、無効にする、そのような設定ですか。</string>
+	<string name="menu_canncel">キャンセル</string>
+	<string name="title_activity_my_web_view">MyWebView</string>
+	<string name="btn_ok">わかりました</string>
+	<string name="warning">警告</string>
+	<string name="update_new_verision">新しいバージョン</string>
+	<string name="update_now">今すぐ更新</string>
+	<string name="download_complete_tip_to_install">完全なダウンロード</string>
+	<string name="download_complete">完全なダウンロード</string>
+	<string name="error_bad_network">ネットワーク エラー</string>
+	<string name="error_url_empty">ダウンロード url が null</string>
+	<string name="error_sdcard_not_available">SD カードは使用可能ではありません。</string>
+	<string name="error_create_faild">ファイルの作成エラー</string>
+	<string name="error_http_404">ダウンロード url エラー</string>
+	<string name="download_faild">ダウンロード失敗!</string>
+
+</resources>

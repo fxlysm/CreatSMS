@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">CreatSMS</string>
+	<string name="navigation_drawer_open">Tiroir de navigation ouverte</string>
+	<string name="navigation_drawer_close">Tiroir de navigation rapprochée</string>
+	<string name="action_settings">Paramètres</string>
+	<string name="sms_message_contect">Corps du message</string>
+	<string name="smes_message_contect_tip">Pls d’entrée, ce domaine ne devrait pas null</string>
+	<string name="sms_message_number">Numéro de téléphone</string>
+	<string name="sms_phone_number_default">13800138000</string>
+	<string name="sms_phone_number_tip">Entrée pls n’importe quel nombre</string>
+	<string name="apply_permission_message">Cette APP doivent demander l’autorisation de lire et écrire des messages</string>
+	<string name="adding_sms">Ajouter un Sms...</string>
+	<string name="title_activity_settings">Paramètres</string>
+	<string name="language_switch">Commutateur de langue</string>
+	<string name="navigation_about">Sur</string>
+	<string name="navigation_share">Partager</string>
+	<string name="navigation_update">Mise à jour</string>
+	<string name="section_format">Bonjour monde de section : %1$ d</string>
+	<string name="settings_select_time">Sélectionnez heure</string>
+	<string name="settings_select_time_detail">Sélectionnez ce message creat temps</string>
+	<string name="settings_select_count">Vous définissez Creat Message Count est %s</string>
+	<string name="settings_sms_count">Nombre de messages</string>
+	<string name="settings_sms_count_detail">Le comte, c’est ce que vous voulez creat</string>
+	<string name="public_setting">Paramètres de publics</string>
+	<string name="nav_setting_feedback">Vos commentaires</string>
+	<string name="message_count_pop">Nombre de messages pls d’entrée</string>
+	<string name="version_name">V</string>
+	<string name="can_not_find_version_name"></string>
+	<string name="sent_to">par l’intermédiaire de</string>
+	<string name="qq_app_check">Votre appareil pas installer QQ, Pls télécharger sur AppStore et réessayez.</string>
+	<string name="network_setting">Paramètres réseau</string>
+	<string name="network_notwork">Réseau est désactiver, mettre maintenant ?</string>
+	<string name="menu_canncel">Annuler</string>
+	<string name="title_activity_my_web_view">MyWebView</string>
+	<string name="btn_ok">Bien</string>
+	<string name="warning">Mise en garde</string>
+	<string name="update_new_verision">Nouvelle Version</string>
+	<string name="update_now">Mettre à jour</string>
+	<string name="download_complete_tip_to_install">Téléchargé complet</string>
+	<string name="download_complete">Téléchargé complet</string>
+	<string name="error_bad_network">Erreur réseau</string>
+	<string name="error_url_empty">Télécharger url est null</string>
+	<string name="error_sdcard_not_available">Carte SD n’est pas utilisable</string>
+	<string name="error_create_faild">Erreur de fichier creat</string>
+	<string name="error_http_404">Télécharger url error</string>
+	<string name="download_faild">Télécharger Fail !</string>
+
+</resources>
