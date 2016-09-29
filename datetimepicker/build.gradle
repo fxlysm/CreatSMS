@@ -30,4 +30,4 @@ dependencies {
     testCompile 'junit:junit:4.12'
 
 }
-apply from: 'https://raw.githubusercontent.com/HomHomLin/Gradle-Publish/master/bintray.gradle'
+//apply from: 'https://github.com/fxlysm/Gradle-Publish/edit/master/bintray.gradle'
